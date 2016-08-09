@@ -1,14 +1,15 @@
 var express = require('express'),
 	app = express(),
-	path = require('path'),
-	http = require('http');
+	path = require('path');
 
 var port = process.env.PORT || 3000;
 
-var server = http.createServer(app);
-
 app.get('/', function (req, res){
 	res.sendFile(path.join(__dirname +'/index.html'));
-}).listen(port);
+});
+
+app.listen(port, function(){
+	console.log('Our app is running on http://localhost' + port);
+});
 
 
