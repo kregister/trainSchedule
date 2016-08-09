@@ -1,0 +1,22 @@
+{
+  "name": "train_schedule",
+  "version": "1.0.0",
+  "description": "Train scheduler",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kregister/trainSchedule.git"
+  },
+  "author": "Katie Register",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kregister/trainSchedule/issues"
+  },
+  "homepage": "https://github.com/kregister/trainSchedule#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
